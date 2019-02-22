@@ -1,5 +1,5 @@
 ---
-- hosts: FED
+- hosts: all
   become: yes
   tasks:
     # This task updates servers that use 'yum' and RPM packages
